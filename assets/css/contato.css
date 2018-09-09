@@ -1,0 +1,201 @@
+/* Contato */
+
+.contact .section-half.left-side {
+    max-width: 400px;
+    padding-right: 40px;
+}
+
+.contact-info>div {
+    margin-bottom: 20px;
+}
+
+.contact-info strong {
+    font-size: 18px;
+    display: block;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    outline: none;
+}
+
+.contact-form select {
+    min-height: 40px;
+}
+
+
+/* Ninja Forms */
+
+
+/* .contact-form .nf-form-fields-required,
+.contact-form .nf-after-field,
+.contact-form .nf-form-errors-1,
+.nf-error-msg,
+.nf-form-hp {
+    display: none;
+} */
+
+.contact-form .nf-form-fields-required,
+.contact-form .nf-form-errors {
+    display: none;
+}
+
+.contact-form .nf-error-msg,
+.contact-form .ninja-forms-req-symbol {
+    font-size: 10px;
+}
+
+.contact-form h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-form .label-above .nf-field-label {
+    margin: 0;
+}
+
+.contact-form label {
+    font-size: 12px;
+}
+
+.contact-form .nf-field-container {
+    margin-bottom: 15px;
+}
+
+.contact-page .contact-form .nome-container,
+.contact-page .contact-form .phone-container,
+.contact-page .contact-form .email-container,
+.contact-page .contact-form .assunto-container,
+.cadastro-online-page nf-field {
+    width: 49%;
+    clear: none;
+}
+
+.contact-page .contact-form .nome-container,
+.contact-page .contact-form .phone-container,
+.cadastro-online-page nf-field:nth-child(odd) {
+    float: left;
+}
+
+.contact-page .contact-form .email-container,
+.contact-page .contact-form .assunto-container,
+.cadastro-online-page nf-field:nth-child(even) {
+    float: right;
+}
+
+.cadastro-online-page nf-field:nth-child(9),
+.cadastro-online-page nf-field:nth-child(10),
+.cadastro-online-page nf-field:nth-child(15) {
+    width: 100%;
+}
+
+.contact-form .nf-field-element input:not(.enviar),
+.contact-form .nf-field-element textarea {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 2px;
+    transition: border-color ease-in-out .15s;
+    outline: 0;
+}
+
+.contact-form .nf-field-element input:not(.enviar):focus,
+.contact-form .nf-field-element textarea:focus {
+    border: 1px solid #3066c1;
+}
+
+.contact-form .nf-field-element textarea {
+    height: 75px;
+}
+
+.contact-form .enviar {
+    white-space: nowrap;
+    margin: 15px auto;
+    display: block;
+    padding: 5px 65px;
+    background: #2f65c2;
+    border-radius: 4px;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 32px;
+    letter-spacing: .025em;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+
+.contact-form .enviar:hover {
+    color: #fff;
+    background: #0c74ea;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+
+/* Cadastro Online */
+
+.contact-form .btn {
+    all: inherit;
+    background: #eee;
+    width: auto;
+    padding: 5px 15px;
+    box-shadow: 0px 1px 0px 0px #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    opacity: 0.8;
+}
+
+.contact-form .nf-fu-progress {
+    height: 8px;
+    margin-bottom: 0;
+}
+
+.contact-form .nf-field-element {
+    postion: relative;
+}
+
+.contact-form .files_uploaded {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact .section-half.left-side {
+        max-width: 100%;
+        border-bottom: 1px solid;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+    }
+    .contact-page .contact-form .nome-container,
+    .contact-page .contact-form .phone-container,
+    .contact-page .contact-form .email-container,
+    .contact-page .contact-form .assunto-container,
+    .cadastro-online-page nf-field:nth-child(odd),
+    .cadastro-online-page nf-field:nth-child(even) {
+        width: 100%;
+    }
+    .contact-form .files_uploaded {
+        bottom: -45px;
+    }
+}
